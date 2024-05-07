@@ -13,7 +13,6 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, Message
 connection = pymysql.connect(host='localhost',
                              user='root',
                              password=''
-
                              )
 
 
