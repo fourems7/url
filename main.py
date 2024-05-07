@@ -10,9 +10,7 @@ from aiogram import Bot, Dispatcher, executor
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, Message
 
 
-connection = pymysql.connect(host='localhost',
-                             user='root',
-                             password='')
+connection = pymysql.connect(host='localhost',user='root',password='')
 
 
 API_TOKEN = '7060384912:AAGVitlqlRapKPWnEHkml0WkWw-GQR2be6I'
